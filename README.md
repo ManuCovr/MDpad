@@ -14,10 +14,6 @@ A fast, minimal Markdown editor that runs entirely in your browser *(this README
 - Sidebar with all formatting options organized by category
 - 6 built-in templates (README, Blog post, Meeting notes, Changelog, Tech doc, Daily journal) + save your own
 
-**Command Palette (`⌘K`)**
-- 33 commands across Format, Templates, Clean, View, and Tools groups
-- Fuzzy search with keyboard navigation — formatting commands wrap selected text even after navigating the palette
-
 **Find & Replace (`⌘F`)**
 - All matches highlighted inline in the editor without stealing focus
 - Navigate matches with `↑` / `↓`, replace one or all at once (case-insensitive)
@@ -41,10 +37,10 @@ A fast, minimal Markdown editor that runs entirely in your browser *(this README
 Visit [manucovr.github.io/MDpad](https://manucovr.github.io/MDpad/). To self-host, push the repo and enable GitHub Pages from the `main` branch root.
 
 ## Stack
-Single HTML file — HTML, CSS, and vanilla JS. Only external resources are two Google Fonts (`DM Sans` and `JetBrains Mono`).
+HTML, CSS, and vanilla JS. Only external resources are two Google Fonts (`DM Sans` and `JetBrains Mono`).
 
 ## Privacy
-Everything stays in your browser. Content is saved to `localStorage` only — nothing is ever sent anywhere.
+Everything stays in your browser. Content is saved to `localStorage` only.
 
 ## License
 MIT © 2025 Manuel Bernardes
